@@ -1,0 +1,121 @@
+html{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111113;
+    color: #e4e7e7;
+}
+
+.background table {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-collapse: collapse;
+    overflow: hidden;
+    table-layout: fixed;
+}
+
+.background tbody td {
+    border: none; /* remove real border */
+    box-shadow: inset 0 -0.05px 0 0 #203c3b, inset 0 0.25px 0 0 #203c3b,
+                inset -0.05px 0 0 0 #203c3b, inset 0.25px 0 0 0 #203c3b;
+}
+
+.background tbody th{
+    border: none; /* remove real border */
+    box-shadow: inset 0 -0.05px 0 0 #203c3b, inset 0 0.25px 0 0 #203c3b,
+                inset -1px 0 0 0 #203c3b, inset 1px 0 0 0 #203c3b;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    padding: 0;
+    width: 90px;
+    height: 130px;
+}
+
+.background tbody th p {
+    transform: translateY(-25px);
+}
+
+.background thead th {
+    color: #949e9e;
+    border: 1px solid #203c3b;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.webtech{
+    text-align:center;
+    align-content: center;
+    margin: 0;
+    border: 1px solid #f4a8ff;
+    border-radius: 10px;
+    background-color: #fae8ff;
+    height: 96%;
+    width: 98%;
+    color: #c800de;
+}
+
+.math{
+    text-align:center;
+    align-content: center;
+    margin: 0;
+    border: 1px solid #ffa2a2;
+    border-radius: 10px;
+    background-color: #ffe2e2;
+    height: 96%;
+    width: 98%;
+    color: #e7000b;
+}
+
+.ui{
+    text-align:center;
+    align-content: center;
+    margin: 0;
+    border: 1px solid #d7d3d4;
+    border-radius: 10px;
+    background-color: #f6f5f5;
+    height: 96%;
+    width: 98%;
+    color: #57534d;
+}
+
+.edl{
+    text-align:center;
+    align-content: center;
+    margin: 0;
+    border: 1px solid #5ee9b5;
+    border-radius: 10px;
+    background-color: #d0fae5;
+    height: 96%;
+    width: 98%;
+    color: #096;
+}
+
+.usrah{
+    text-align:center;
+    align-content: center;
+    margin: 0;
+    border: 1px solid #ffdf20;
+    border-radius: 10px;
+    background-color: #fef9c2;
+    height: 96%;
+    width: 98%;
+    color: #d08700;
+}
