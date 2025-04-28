@@ -1,14 +1,14 @@
-html {
+html{
     font-family: sans-serif;
 }
 
-header {
+header{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header img {
+header img{
     width: 100px;
     height: 100px;
     margin: 25px;
@@ -21,33 +21,31 @@ body {
     color: #e4e7e7;
 }
 
-.background {
-    overflow-x: auto; /* allow horizontal scroll */
-    padding: 10px; /* add some padding */
-}
-
 .background table {
     width: 100%;
-    min-width: 800px; /* ensure table is always wide enough */
+    height: 100%;
     border: none;
     border-collapse: collapse;
+    overflow: hidden;
     table-layout: fixed;
 }
 
-.background tbody td,
-.background tbody th {
-    border: none;
+.background tbody td {
+    border: none; /* remove real border */
     box-shadow: inset 0 -0.05px 0 0 #203c3b, inset 0 0.25px 0 0 #203c3b,
                 inset -0.05px 0 0 0 #203c3b, inset 0.25px 0 0 0 #203c3b;
-    text-align: center;
 }
 
-.background tbody th {
+.background tbody th{
+    border: none; /* remove real border */
+    box-shadow: inset 0 -0.05px 0 0 #203c3b, inset 0 0.25px 0 0 #203c3b,
+                inset -1px 0 0 0 #203c3b, inset 1px 0 0 0 #203c3b;
+    text-align: center;
+    vertical-align: top;
     font-weight: bold;
     padding: 0;
     width: 90px;
     height: 130px;
-    vertical-align: top;
 }
 
 .background tbody th p {
@@ -62,75 +60,62 @@ body {
     border-left: none;
 }
 
-.webtech, .math, .ui, .edl, .usrah {
-    text-align: center;
+.webtech{
+    text-align:center;
     align-content: center;
     margin: 0;
+    border: 1px solid #f4a8ff;
     border-radius: 10px;
+    background-color: #fae8ff;
     height: 98%;
     width: 98%;
-}
-
-.webtech {
-    border: 1px solid #f4a8ff;
-    background-color: #fae8ff;
     color: #c800de;
 }
 
-.math {
+.math{
+    text-align:center;
+    align-content: center;
+    margin: 0;
     border: 1px solid #ffa2a2;
+    border-radius: 10px;
     background-color: #ffe2e2;
+    height: 98%;
+    width: 98%;
     color: #e7000b;
 }
 
-.ui {
+.ui{
+    text-align:center;
+    align-content: center;
+    margin: 0;
     border: 1px solid #d7d3d4;
+    border-radius: 10px;
     background-color: #f6f5f5;
+    height: 98%;
+    width: 98%;
     color: #57534d;
 }
 
-.edl {
+.edl{
+    text-align:center;
+    align-content: center;
+    margin: 0;
     border: 1px solid #5ee9b5;
+    border-radius: 10px;
     background-color: #d0fae5;
+    height: 98%;
+    width: 98%;
     color: #096;
 }
 
-.usrah {
+.usrah{
+    text-align:center;
+    align-content: center;
+    margin: 0;
     border: 1px solid #ffdf20;
+    border-radius: 10px;
     background-color: #fef9c2;
+    height: 98%;
+    width: 98%;
     color: #d08700;
-}
-
-/* ------------------- Responsive Design ------------------- */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    header img {
-        margin: 10px 0;
-        width: 80px;
-        height: 80px;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-        margin: 5px 0;
-    }
-
-    .background table {
-        min-width: 700px;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.2rem;
-    }
-
-    header img {
-        width: 70px;
-        height: 70px;
-    }
 }
