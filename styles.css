@@ -122,7 +122,11 @@ body {
 }
 
 @media (max-width:768px){
-    th:first-child{
+    td:nth-child(2){
+        display: none;
+    }
+
+    thead th:nth-child(2) {
         display: none;
     }
 
