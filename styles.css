@@ -121,12 +121,13 @@ body {
     color: #d08700;
 }
 
-@media (max-width:768px){
-    td:nth-child(2){
+@media (max-width:500px){
+    
+    thead th:nth-child(2), thead th:nth-child(8) {
         display: none;
     }
 
-    thead th:nth-child(2) {
+    td:nth-child(2), td:last-child{
         display: none;
     }
 
@@ -139,5 +140,10 @@ body {
     }
     p{
         font-size: 10px;
+    }
+
+    .background tbody th p {
+        margin: 0px;
+        transform: translateY(-5px);
     }
 }
