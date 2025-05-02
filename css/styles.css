@@ -73,6 +73,13 @@ body {
     color: #c800de;
 }
 
+.webtech:hover {
+    background-color: #f3d0fb;
+    color: #9f00b1;
+    box-shadow: 0 0 6px rgba(244, 168, 255, 0.5);
+    cursor: pointer;
+}
+
 .math{
     text-align:center;
     align-content: center;
@@ -85,6 +92,14 @@ body {
     color: #e7000b;
 }
 
+.math:hover {
+    background-color: #ffd6d6;
+    color: #b0000a;
+    box-shadow: 0 0 8px #ffa2a2;
+    cursor: pointer;
+}
+
+
 .ui{
     text-align:center;
     align-content: center;
@@ -95,6 +110,13 @@ body {
     height: 98%;
     width: 98%;
     color: #57534d;
+}
+
+.ui:hover{
+    background-color: #e4e3e3;
+    color: #3a3732;
+    box-shadow: 0 0 6px rgba(87, 83, 77, 0.3);
+    cursor: pointer;
 }
 
 .edl{
@@ -109,6 +131,13 @@ body {
     color: #096;
 }
 
+.edl:hover {
+    background-color: #b9f4d8;
+    color: #065f4b;
+    box-shadow: 0 0 6px rgba(94, 233, 181, 0.5);
+    cursor: pointer;
+}
+
 .usrah{
     text-align:center;
     align-content: center;
@@ -120,6 +149,14 @@ body {
     width: 98%;
     color: #d08700;
 }
+
+.usrah:hover {
+    background-color: #fcf39b;
+    color: #a86f00;
+    box-shadow: 0 0 6px rgba(255, 223, 32, 0.5);
+    cursor: pointer;
+}
+
 
 @media (max-width:500px){
     
